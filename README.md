@@ -24,15 +24,31 @@ to run this project :-
 >##### once project succesfully build you can start the server. as this application is based on Spring boot you don't need to use external server.
 >##### server starts at 8181 port number
 >##### After project start you can  perform above Operation.
->##### *retrieve All Employee Info*
 -------------------------------
 
->#### *add new Employee*
->#### *remove employee info*
->#### *update an exsting Employee info*
+>##### *retrieve All Employee Info* this is post call need to pass Employee JSON object http://localhost:8181/employee/saveEmployeeDetails
+>#### *add new Employee* this is GET call without passing any input parameter http://localhost:8181/employee/fetchAllEmployees
+>#### *remove employee info* this is DELETE call need to pass Employee ID http://localhost:8181/employee/removeEmployee/5cc55dd44cc76b16c0526055
+>#### *update an exsting Employee info* this is POST call to update Employee data http://localhost:8181/employee/updateEmployee
+ {
+	
+  "employeeName" : "Aditya Rawal",
+  "employeeAge" : 26,
+  "employeeSalary" : 50000,
+  "designation" : "counsltant",
+  "gender" : "male",
+  "email" : "adrawal07@gmail.com",
+  "mobileNumber" : 3001,
+  "profileImage" : null,
+  "employeeDepartment" : "IT Department"
+}
+
 
 #### Project architecture diagram
+==================================
 ![MVC_design_pattern](https://user-images.githubusercontent.com/35422207/56868895-330fa980-6a16-11e9-9621-eafe226112f7.jpg)
+example of Employee Json 
+  
 
 
 
