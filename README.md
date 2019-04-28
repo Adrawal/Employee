@@ -31,6 +31,10 @@ to run this project :-
 >#### *remove employee info*
 >#### *update an exsting Employee info*
 
+#### Project architecture diagram
+![MVC_design_pattern](https://user-images.githubusercontent.com/35422207/56868895-330fa980-6a16-11e9-9621-eafe226112f7.jpg)
+
+
 
 
 
