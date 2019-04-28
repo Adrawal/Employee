@@ -10,7 +10,7 @@ employee-0.0.1
 
 Application feature
 ===================
-this application is developed to maintain the employee information such as personal info, contact info. In this Application user get perform below operation :-
+this application is developed to maintain the employee information such as personal info, contact info. In this Application user gets to perform below operation :-
 >#### *retrieve All Employee Info*
 >#### *add new Employee*
 >#### *remove employee info*
@@ -30,7 +30,9 @@ to run this project :-
 >#### *add new Employee* this is GET call without passing any input parameter http://localhost:8181/employee/fetchAllEmployees
 >#### *remove employee info* this is DELETE call need to pass Employee ID http://localhost:8181/employee/removeEmployee/5cc55dd44cc76b16c0526055
 >#### *update an exsting Employee info* this is POST call to update Employee data http://localhost:8181/employee/updateEmployee
- {
+>#### example of Employee Json
+------------------------------
+{
 	
   "employeeName" : "Aditya Rawal",
   "employeeAge" : 26,
@@ -47,7 +49,7 @@ to run this project :-
 #### Project architecture diagram
 ==================================
 ![MVC_design_pattern](https://user-images.githubusercontent.com/35422207/56868895-330fa980-6a16-11e9-9621-eafe226112f7.jpg)
-example of Employee Json 
+
   
 
 
