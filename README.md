@@ -1,9 +1,9 @@
 # Employee project
 this repository contains java code base for Employee API
-this project was generated using spring boot initiliazer language as JAVA project as Maven Project Spring boot version 2.1.4.
+this project was generated using spring boot initiliazer language as JAVA project as Maven Project Spring boot version 2.1.4 Database as MONGODB ATLAS CLOUD Server.
 
 System Requirement:-
-JAvA JDK/JRE 1.8 or higher, IDE (Spring tool suite or any other preference), Postman tool
+JAvA JDK/JRE 1.8 or higher, IDE (Spring tool suite or any other preference), Postman tool, Browser.
 
 version :-
 employee-0.0.1
@@ -17,7 +17,7 @@ this application is developed to maintain the employee information such as perso
 >#### *update an exsting Employee info*
 
 
-to initilaize project :-
+To initilaize project :-
 ========================
 >##### first you need to clone this project in your local " git clone https://github.com/Adrawal/Employee.git "
 >##### open this project in any one of the IDE(STS/Eclipce/Intellij) based on your preference. i prefer STS.
